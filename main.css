@@ -13,6 +13,7 @@ body {
     flex-direction: column;
     text-align: center;
     background-image: url(https://static.vecteezy.com/system/resources/previews/021/900/082/original/random-number-gradient-pastel-math-background-vector.jpg);
+    background-size: cover;
 }
 
 h1 {
