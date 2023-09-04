@@ -2,6 +2,8 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
+    font-family: sans-serif;
+    font-weight: normal;
     /* outline: 1px solid rebeccapurple; */
 }
 
@@ -10,39 +12,50 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-
-}
-
-p {
-    font-size: 4em;
-    padding: .5em;
+    background-image: url(https://img.freepik.com/free-vector/hand-drawn-scientific-formulas-chalkboard_23-2148496321.jpg?w=900&t=st=1693851503~exp=1693852103~hmac=9921bfe6ddc443e3180a2f6ed301d3f706b25b31bc269ae5580da6c72ef2ba1f);
 }
 
 button {
     flex: 1;
-    font-size: 1.5em;
+    font-size: 1.5rem;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
 }
 
-#equalsBtn {
-    flex-basis: 26%;
+#btnEquals {
+    flex-basis: 26.2%;
 }
+
 /* CONTAINERS */
 .calc {
-    height: 800px;
-    width: 600px;
+    height: 600px;
+    width: 400px;
     display: flex;
     flex-direction: column;
-    border: 2px solid black;
     border-radius: 7px;
+    background-color: white
 }
 
-.display {
+.output {
     height: 20%;
     display: flex;
-    justify-content: end;
+    flex-direction: column;
+    justify-content: space-around;
     align-items: end;
     border: 1px solid black;
+    border-radius: 2px;
     margin: 5px;
+    padding: 10px;
+    word-wrap: break-word;
+    word-break: break-all;
+    background-color: white;
+}
+
+.currentOperand {
+    font-size: 1.3rem;
+}
+
+.previousOperand {
+    font-size: 2.3rem;
 }
 
 .buttonsGrid {
