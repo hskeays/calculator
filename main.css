@@ -21,10 +21,13 @@ button {
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
 }
 
+#btnClear {
+    flex-basis: 26.4%;
+}
+
 #btnEquals {
     flex-basis: 26.2%;
 }
-
 /* CONTAINERS */
 .calc {
     height: 600px;
@@ -51,11 +54,11 @@ button {
 }
 
 .currentOperand {
-    font-size: 1.3rem;
+    font-size: 2.3rem;
 }
 
 .previousOperand {
-    font-size: 2.3rem;
+    font-size: 1.3rem;
 }
 
 .buttonsGrid {
@@ -66,7 +69,6 @@ button {
     flex-wrap: wrap;
 }
 
-.row1,
 .row2,
 .row3,
 .row4 {
@@ -78,6 +80,7 @@ button {
 
 }
 
+.row1,
 .row5 {
     display: flex;
     flex: 1;
