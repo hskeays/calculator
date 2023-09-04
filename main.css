@@ -53,9 +53,10 @@ button {
     background-color: lightgrey;
 }
 
-button:hover {
-    background-color: darkgrey;
-    
+@media (hover: hover) {
+    button:hover {
+        background-color: darkgrey;
+    }
 }
 
 button:active {
