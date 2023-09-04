@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    /* outline: 1px solid rebeccapurple; */
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+p {
+    font-size: 4em;
+    padding: .5em;
+}
+
+button {
+    flex: 1;
+    font-size: 1.5em;
+}
+
+#equalsBtn {
+    flex-basis: 26%;
+}
+/* CONTAINERS */
+.calc {
+    height: 800px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 7px;
+}
+
+.display {
+    height: 20%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    border: 1px solid black;
+    margin: 5px;
+}
+
+.buttonsGrid {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.row1,
+.row2,
+.row3,
+.row4 {
+    display: flex;
+    flex: 1;
+    gap: 5px;
+    margin: 5px;
+    margin-top: 0;
+
+}
+
+.row5 {
+    display: flex;
+    flex: 1;
+    gap: 5px;
+    margin: 5px;
+    margin-top: 0;
+}
