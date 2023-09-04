@@ -10,42 +10,52 @@
 </head>
 
 <body>
-    <div class="calc">
-        <div class="output">
-            <div data-previousOperand class="previousOperand"></div>
-            <div data-currentOperand class="currentOperand"></div>
+    <div class="header">
+        <h1>Calculatron 5000</h1>
+    </div>
+    <div class="calcContainer">
+        <div class="calc">
+            <div class="output">
+                <div data-previousOperand class="previousOperand"></div>
+                <div data-currentOperand class="currentOperand"></div>
+            </div>
+            <div class="buttonsGrid">
+                <div class="row1">
+                    <button data-clear id="btnClear">Clear</button>
+                    <button data-delete>Delete</button>
+                    <button data-operation>/</button>
+                </div>
+                <div class="row2">
+                    <button data-number="">7</button>
+                    <button data-number>8</button>
+                    <button data-number>9</button>
+                    <button data-operation>+</button>
+                </div>
+                <div class="row3">
+                    <button data-number>4</button>
+                    <button data-number>5</button>
+                    <button data-number>6</button>
+                    <button data-operation>-</button>
+                </div>
+                <div class="row4">
+                    <button data-number>1</button>
+                    <button data-number>2</button>
+                    <button data-number>3</button>
+                    <button data-operation>*</button>
+                </div>
+                <div class="row5">
+                    <button data-number>0</button>
+                    <button data-number>.</button>
+                    <button data-equals id="btnEquals">=</button>
+                </div>
+            </div>
         </div>
-        <div class="buttonsGrid">
-            <div class="row1">
-                <button data-clear id="btnClear">Clear</button>
-                <button data-delete>Delete</button>
-                <button data-operation>/</button>
-            </div>
-            <div class="row2">
-                <button data-number="">7</button>
-                <button data-number>8</button>
-                <button data-number>9</button>
-                <button data-operation>+</button>
-            </div>
-            <div class="row3">
-                <button data-number>4</button>
-                <button data-number>5</button>
-                <button data-number>6</button>
-                <button data-operation>-</button>
-            </div>
-            <div class="row4">
-                <button data-number>1</button>
-                <button data-number>2</button>
-                <button data-number>3</button>
-                <button data-operation>*</button>
-            </div>
-            <div class="row5">
-                <button data-number>0</button>
-                <button data-number>.</button>
-                <button data-equals id="btnEquals">=</button>
-            </div>
-        </div>
-
+    </div>
+    <div class="footer">
+        <p>Made by hskeays. An Odin Project assignment.</p>
+        <a href="https://github.com/hskeays/etch-a-sketch">
+            <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" rel="noopener" alt="github logo">
+        </a>
     </div>
 </body>
 
