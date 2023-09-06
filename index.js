@@ -6,13 +6,16 @@ class Calculator {
     }
 
     clear() {
-        this.currentOperand = ""
+        this.currentOperand = "0"
         this.previousOperand = ""
         this.operation = undefined
     }
 
     delete() {
         this.currentOperand = this.currentOperand.toString().slice(0, -1);
+        if (this.currentOperand === "") {
+            this.currentOperand = "0"
+        }
     }
 
     appendNumber(number) {
@@ -60,16 +63,16 @@ class Calculator {
         const stringNumber = number.toString()
         const integerDigits = parseFloat(stringNumber.split(".")[0])
         const decimalDigits =stringNumber.split(".")[1]
-        let intgerDisplay
+        let integerDisplay
         if (isNaN(integerDigits)) {
-            intgerDisplay = ""
+            integerDisplay = ""
         } else {
-            intgerDisplay = integerDigits.toLocaleString("en", {maximumFractionDigits: 0})
+            integerDisplay = integerDigits.toLocaleString("en", {maximumFractionDigits: 0})
         }
         if (decimalDigits != null) {
-            return `${intgerDisplay}.${decimalDigits}`
+            return `${integerDisplay}.${decimalDigits}`
         } else {
-            return intgerDisplay
+            return integerDisplay
         }
     }
 
