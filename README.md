@@ -1,13 +1,11 @@
-Rock Paper Scissors Game
-
-This is a classic Rock Paper Scissors game implemented using HTML, CSS, and JavaScript. It provides a simple and enjoyable gaming experience where users can play against the computer.
-
-How to Play
-Live URL: 
-https://hskeays.github.io/rock-paper-scissors/
+Simple Web-based Calculator
+This is a simple web-based calculator built using HTML, CSS, and JavaScript. It provides basic arithmetic operations such as addition, subtraction, multiplication, and division.
 
 Features
-Simple and intuitive user interface.
-Responsive design, compatible with different screen sizes.
-Randomized computer selection for fair gameplay.
+Basic arithmetic operations: addition, subtraction, multiplication, division.
+Clear button to reset the input.
+Responsive design, compatible with various screen sizes.
 Real-time result display.
+
+How to Use
+Live URL: https://hskeays.github.io/calculator/
